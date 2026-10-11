@@ -2,38 +2,49 @@
 <html lang="ar" dir="rtl">
 <head>
     <meta charset="UTF-8">
-    <title>تسجيل الدخول - عقارات ود مدني</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>عقارات ود مدني - تسجيل الدخول</title>
 </head>
 <body>
+
     <header>
         <h1>عقارات ود مدني - بيع واستئجار</h1>
         <nav>
-            <a href="index.html">تسجيل الدخول</a>
-            <a href="properties.html">عقارات للبيع</a>
-            <a href="rent.html">عقارات للإيجار</a>
-            <a href="contact.html">تواصل معنا</a>
+            <a href="index.html">تسجيل الدخول</a> | 
+            <a href="properties.html">عقارات للبيع</a> | 
+            <a href="rent.html">عقارات للإيجار</a> | 
+            <a href="contact.html">تواصل معنا</a> |
+            <a href="#" id="logout-link" style="display: none;">تسجيل خروج</a>
         </nav>
     </header>
+
+    <hr>
 
     <main>
         <h2>تسجيل الدخول إلى حسابك</h2>
         <form>
             <div>
-                <label for="username">اسم المستخدم أو البريد الإلكتروني:</label>
+                <label for="username">اسم المستخدم أو البريد الإلكتروني:</label><br>
                 <input type="text" id="username" name="username" required>
             </div>
             <br>
             <div>
-                <label for="password">كلمة المرور:</label>
+                <label for="password">كلمة المرور:</label><br>
                 <input type="password" id="password" name="password" required>
             </div>
             <br>
-            <button type="submit">دخول</button>
+            <div>
+                <button type="submit" id="login-btn">دخول</button>
+                <button type="button" id="logout-btn" style="display: none;">تسجيل خروج</button>
+            </div>
         </form>
     </main>
+
+    <hr>
 
     <footer>
         <p>&copy; 2026 عقارات ود مدني - جميع الحقوق محفوظة</p>
     </footer>
+
 </body>
 </html>
