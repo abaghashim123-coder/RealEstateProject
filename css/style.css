@@ -1,0 +1,122 @@
+/* ==========================================
+   تنسيق عقارات ود مدني (بيبي بلو ورمادي فقط)
+   ========================================== */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f1f5f9; /* رمادي هادئ جداً */
+    color: #334155; /* رمادي داكن للنصوص لسهولة القراءة */
+    margin: 0;
+    padding: 20px;
+    direction: rtl;
+}
+
+/* الترويسة والقوائم العلوية (بيبي بلو) */
+header {
+    background-color: #d0e1fd; /* بيبي بلو أنيق */
+    padding: 15px 25px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #b3ccfc;
+}
+
+header h2 a {
+    text-decoration: none;
+    color: #1e3a8a; /* رمادي مائل للزرقة الهادئة */
+}
+
+nav a {
+    text-decoration: none;
+    color: #334155;
+    font-weight: 600;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+nav a:hover {
+    color: #1e3a8a;
+}
+
+/* المحتوى الرئيسي (أبيض وخلفية رمادية خفيفة) */
+main {
+    background-color: #ffffff;
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 30px;
+    border-radius: 10px;
+    border: 1px solid #e2e8f0;
+}
+
+/* الجداول */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #cbd5e1;
+    padding: 12px;
+    text-align: right;
+}
+
+th {
+    background-color: #e2e8f0; /* رمادي فاتح للترويسة */
+    color: #1e293b;
+}
+
+tr:nth-child(even) {
+    background-color: #f8fafc; /* رمادي فاتح جداً للتبادل */
+}
+
+/* مربعات الإدخال */
+input[type="text"], 
+input[type="password"], 
+input[type="email"], 
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #cbd5e1;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: #f8fafc;
+}
+
+/* الأزرار بلون البيبي بلو الهادئ */
+button {
+    background-color: #a5b4fc; /* بيبي بلو متناسق */
+    color: #1e293b; /* نص رمادي داكن واضح */
+    border: 1px solid #818cf8;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #818cf8; /* بيبي بلو أغمق قليلاً عند المرور */
+    color: #ffffff;
+}
+
+/* القوائم والنقاط */
+ul {
+    line-height: 1.8;
+    background-color: #f8fafc;
+    padding: 15px 30px;
+    border-radius: 8px;
+    border: 1px solid #e2e8f0;
+}
+
+/* تذييل الصفحة */
+footer {
+    text-align: center;
+    margin-top: 40px;
+    color: #64748b; /* رمادي هادئ */
+    font-size: 14px;
+}
