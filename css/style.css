@@ -120,3 +120,39 @@ footer {
     color: #64748b; /* رمادي هادئ */
     font-size: 14px;
 }
+/* ==========================================
+   التجاوب مع أحجام الشاشات المختلفة (Responsive)
+   ========================================== */
+
+@media screen and (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+    
+    header {
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+    }
+    
+    nav {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 5px;
+    }
+
+    main {
+        padding: 15px;
+        margin: 15px auto;
+    }
+
+    table {
+        font-size: 14px;
+    }
+    
+    th, td {
+        padding: 8px;
+    }
+}
+
